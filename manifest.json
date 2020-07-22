@@ -1,0 +1,69 @@
+{
+  "name": "filter-button",
+  "label": "Filter Button",
+  "type": "widget",
+  "version": "0.0.1",
+  "exbVersion": "1.0.0",
+  "author": "Adam Pfister",
+  "description": "This is a filter button widget, that allows you to configure simple, one-click filters for layers within a web map",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasLocale": true,
+    "hasSettingPage": true,
+    "supportRepeat": true,
+    "canCrossLayoutBoundary": true,
+    "hasBuilderSupportModule": true
+  },
+  "extensions": [
+    {
+      "name": "quick-style",
+      "point": "CONTEXT_TOOL",
+      "uri": "tools/quick-style"
+    }
+  ],
+  "defaultSize": {
+    "width": 220,
+    "height": 50
+  },
+  "translatedLocales": [
+    "en",
+    "ar",
+    "bs",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "he",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "lt",
+    "lv",
+    "nb",
+    "nl",
+    "pl",
+    "pt-br",
+    "pt-pt",
+    "ro",
+    "ru",
+    "sl",
+    "sr",
+    "sv",
+    "th",
+    "tr",
+    "zh-cn",
+    "uk",
+    "vi",
+    "zh-hk",
+    "zh-tw"
+  ]
+}
